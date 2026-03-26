@@ -1,0 +1,9 @@
+#Sitemap: https://www.slammin-design.co.uk/sitemap.xml
+Sitemap: https://www.slammin-design.co.uk/sitemap.txt
+
+User-agent: Google
+Allow:
+User-agent: Googlebot
+Allow: /
+User-agent: *
+Disallow: /

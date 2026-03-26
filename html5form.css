@@ -1,0 +1,31 @@
+.formdiv {width:400px; height:100px; padding:0px; border:0px solid blue; float: left;}
+#enquiry img { border: none; }
+#enquiry p{margin: 0 0 1em 0;}
+#enquiry h2 { font-size: 14px; margin: 0 0 12px; }
+#enquiry {margin: 20px auto;width: 300px;}
+#enquiry fieldset{margin: 0 0 20px;padding: 20px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+#enquiry ol{list-style-type: none;padding: 0;margin: 0;}
+#enquiry li{margin: 0 0 12px;position: relative;}
+#enquiry label{width: 300px;display: inline-block;vertical-align: top;}
+#enquiry legend{ color:#ff3300;}
+#enquiry input, textarea {width:auto;}
+#enquiry fieldset input,#enquiry fieldset select{background: transparent url(ico_validation.png) 260px 24px no-repeat;display: block; clear:both;width: 300px;border: 1px solid #ff3300;padding: 3px 26px 3px 3px;-moz-transition: background-color 1s ease;-webkit-transition: background-color 1s ease;-o-transition: background-color 1s ease;transition: background-color 1s ease;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+#enquiry fieldset textarea{display: inline-block;width: 300px;border: 1px solid #ff3300;padding: 3px 26px 3px 3px; background-color: transparent; -moz-transition: background-color 1s ease;-webkit-transition: background-color 1s ease;-o-transition: background-color 1s ease;transition: background-color 1s ease;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; resize:none; }
+#enquiry fieldset input[type="checkbox"]{width:20px;}
+#enquiry fieldset input[type="radio"]{width:20px;}
+#enquiry fieldset select{ width: 280px; padding: 3px; }
+#enquiry fieldset #postcode{ padding: 3px; width: 270px; }
+#enquiry input:-webkit-input-placeholder,#enquiry input:-moz-placeholder input:placeholder{color: #f2f2f2;}
+#enquiry .validation01{background: #ff3300; clear:both; color: #fff;display: none;font-size: 12px;padding: 3px;text-align: left;top: 0;width: 300px;outline: 0;-moz-box-shadow: 0px 0px 4px #ffffff;-webkit-box-shadow: 0px 0px 4px #ffffff;box-shadow: 0px 0px 4px #ffffff;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+#enquiry input:focus + .validation01{ display: block; clear:both;}
+#enquiry input:focus:required:invalid + .validation01 .valid,#enquiry input.error:focus + .validation01 .valid,#enquiry input.required:focus + .validation01 .valid,#enquiry input:focus + .validation01 .valid{ display: none; }
+#enquiry input:focus:required:valid + .validation01,#enquiry input.valid:focus + .validation01{ background: green; }
+#enquiry input:focus:required:valid + .validation01 .invalid,#enquiry input.valid:focus + .validation01 .invalid{ display: none; }
+#enquiry input:focus:required:valid + .validation01 .valid,#enquiry input.valid:focus + .validation01 .valid{ display: block; }
+#enquiry fieldset input:required:valid{background-color: transparent ;background-position: 260px -61px;}
+#enquiry input.error{background-color: #ff3300; color:#fff; font-weight:bold; background-position: 260px 3px;outline: none; }
+#enquiry input.required{background-color: transparent; background-position: 260px -30px;}
+#enquiry input.valid { background-color: transparent; border:1px solid #ccc;background-position: 260px -61px;}
+#enquiry textarea.valid { background-color: transparent; border:1px solid #ccc;background-position: 260px -61px;}
+#enquiry input.error::-webkit-input-placeholder,#enquiry inputerror :-moz-placeholder {color: #ff3300;}
+#enquiry input[type="submit"]{background: #ff3300; border:none; width:300px; margin:auto; float:left; padding:5px; border-radius:5px; color:#fff; font-weight:bold; cursor:pointer;}

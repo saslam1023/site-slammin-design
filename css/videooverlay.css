@@ -1,0 +1,28 @@
+.css-selector {
+    background: linear-gradient(180deg, #662424, #000000, #ff0000, #ffffff);
+    background-size: 800% 800%;
+    -webkit-animation: videooverlay 59s ease infinite;
+    -moz-animation: videooverlay 59s ease infinite;
+    -o-animation: videooverlay 59s ease infinite;
+    animation: videooverlay 59s ease infinite;
+}
+@-webkit-keyframes videooverlay {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@-moz-keyframes videooverlay {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@-o-keyframes videooverlay {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@keyframes videooverlay {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
